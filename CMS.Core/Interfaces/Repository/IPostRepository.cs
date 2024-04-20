@@ -47,5 +47,6 @@ namespace CMS.Core.Interfaces.Repository
         /// </summary>
         /// <param name="post"></param>
         void Delete(Post post);
+
     }
 }
