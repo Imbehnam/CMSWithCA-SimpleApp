@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CMS.Core.Domains;
+using CMS.Infrastructure.Data.Entities.Infrastructure.Data.Entity.Core.Domains;
 
-namespace CMS.Core.Interfaces.Repository
+namespace CMS.Infrastructure.Data.Entities.Infrastructure.Data.Entity.Core.Interfaces.Repository
 {
     public interface IPostRepository
     {
@@ -47,5 +47,6 @@ namespace CMS.Core.Interfaces.Repository
         /// </summary>
         /// <param name="post"></param>
         void Delete(Post post);
+
     }
 }

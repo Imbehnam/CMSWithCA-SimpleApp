@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domains
+namespace CMS.Infrastructure.Data.Entities.Infrastructure.Data.Entity.Core.Domains
 {
     public class Post : Base
     {
@@ -17,5 +17,7 @@ namespace CMS.Core.Domains
         public virtual Category Category { get; set; }
 
         public ICollection<Comment> Comments { get; set; }
+
+        public ICollection<PostTag> PostTags { get; set; }
     }
 }

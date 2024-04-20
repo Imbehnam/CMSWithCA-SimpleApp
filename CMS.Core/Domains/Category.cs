@@ -1,10 +1,8 @@
-﻿namespace CMS.Core.Domains
+﻿namespace CMS.Infrastructure.Data.Entities.Infrastructure.Data.Entity.Core.Domains
 {
     public class Category : Base
     {
         public string Title { get; set; }
-        public string Content { get; set; }
-
-        public ICollection<Post> Posts { get; set; }
+        public string Slug { get; set; }
     }
 }

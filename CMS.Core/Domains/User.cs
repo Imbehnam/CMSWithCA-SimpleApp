@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domains
+namespace CMS.Infrastructure.Data.Entities.Infrastructure.Data.Entity.Core.Domains
 {
     public class User : Base
     {
