@@ -17,5 +17,7 @@ namespace CMS.Core.Domains
         public virtual Category Category { get; set; }
 
         public ICollection<Comment> Comments { get; set; }
+
+        public ICollection<PostTag> PostTags { get; set; }
     }
 }

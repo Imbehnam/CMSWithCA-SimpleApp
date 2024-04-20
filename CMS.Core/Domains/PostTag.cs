@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CMS.Core.Domains
 {
-    internal class PostTag
+    public class PostTag
     {
         public long TagId { get; set; }
         public Tag Tag { get; set; }
