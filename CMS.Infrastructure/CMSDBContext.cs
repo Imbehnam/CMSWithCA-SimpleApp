@@ -53,7 +53,7 @@ namespace CMS.Infrastructure
         public CMSDBContext CreateDbContext(string[] args)
         {
             var optionBuilder = new DbContextOptionsBuilder<CMSDBContext>();
-            optionBuilder.UseSqlServer(@"");
+            optionBuilder.UseSqlServer(@"Server=.;Database=CMSDB;Trusted_Connection=True;TrustServerCertificate=True");
 
             return new CMSDBContext(optionBuilder.Options);
         }
